@@ -1,0 +1,9 @@
+height=int(input("enter your height in cm"))
+if(height>120):
+  age=int(input("enter your age"))
+  if(age>18):
+    print("pay 18$")
+  else:
+    print("pay 7$")
+else:
+  print("no rides")
