@@ -1,0 +1,22 @@
+hight=float(input("enter your hight"))
+totalbill=0
+if(hight>120):
+  print("you can ride!")
+  age=int(input("please enter your age"))
+  if(age<12):
+    totalbill=totalbill+5
+  elif(age>12 and age<18):
+    totalbill=totalbill+7
+  else:
+    totalbill=totalbill+12
+  photo=input("do you want a photograph?Y or N")
+  if(photo=="Y"):
+    totalbill=totalbill+3
+    print(f"your total bill is ${totalbill}")
+    print("Enjoy your ride")
+  if(photo=="N"):
+    print(f"your total bill is {totalbill}")
+else:
+  print("No ride for you")
+  
+  
