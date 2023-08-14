@@ -1,0 +1,11 @@
+list_of_students=input("enter the heights").split()
+total_no_of_heights=0
+for i in list_of_students:
+  total_no_of_heights+=1
+print(total_no_of_heights)
+total_sum=0
+for i in range(0,total_no_of_heights):
+  total_sum+=int(list_of_students[i])
+print(total_sum)
+average=total_sum/total_no_of_heights
+print(round(average))
