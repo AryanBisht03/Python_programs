@@ -1,0 +1,8 @@
+list=input("enter numbers").split()
+print(list)
+large=list[0]
+for i in range(0,len(list)):
+  list[i]=int(list[i])
+  if(list[i]>int(large)):
+    large=list[i]
+print(large)
