@@ -1,0 +1,5 @@
+list=input("enter numbers").split()
+print(list)
+for i in range(0,len(list)):
+  list[i]=int(list[i])
+print(max(list))
